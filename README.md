@@ -1,4 +1,4 @@
-timating PI by shooting on a lake
+Estimating PI by shooting on a lake
 A few years ago i read an article about estimating PI. <br>
 This method uses an algorithm that takes two random coordinates "to shoot on" in a square.<br> After shooting it calculates distance from the botton left edge. If it is below 1.0, we have hit a quarter of a circle in this edge. 
 We just count the hits. After a few thousand runs we simply calculate PI with:<br>
